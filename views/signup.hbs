@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="../public/work.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="https://india.acm.org">Home</a>
+            <a href="https://india.acm.org/about-acm-india">About</a>
+            <a href="https://india.acm.org/membership">membership</a>
+            <a href="https://www.acm.org/membership/membership-contact">Contact</a>
+        </nav>
+
+        <form action="#" class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit">
+                <i class='bx bx-search'></i>
+            </button>
+        </form>
+    </header>
+    <div class="background"></div>
+    <div class="container">
+        <div class="content">
+            <h2 class="logo">ACM</h2>
+
+            <div class="text-sci">
+                <h2>Welcome!<br><span>To our club.</span></h2>
+                
+                <p><h3>Proceeding of the ACM</h3>on Measurement and Analysis of Computing System</p>
+            
+
+                <div class="social-icons">
+                    <a href="https://in.linkedin.com/company/indiaacm"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.instagram.com/indiaacm/"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.facebook.com/groups/indiaacm/"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://twitter.com/Indiaacm/status/1522301047749812225"><i class='bx bxl-twitter' ></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="logreg-box">
+            <div class="form-box register">
+                <form action="/signup" method="post">
+                    <h2>Sign Up</h2>
+                    
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-user'></i></i></i></span>
+                        <input type="type" name="name" placeholder="UserName" required>
+                       
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope'></i></i></span>
+                        <input type="email" name="email" placeholder="Email" required>
+                       
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                        <input type="password" name="password" placeholder="Password" required>
+                        
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label ><input type="checkbox">I agree to the T&C</label>
+                        <a href="#">Forgot password?</a>
+                    </div>
+
+                    <button type="submit" class="btn">Sign Up</button>
+                    </button>
+
+                    <div class="login-register">
+                        <p>Already have an account? <a href="/signin" class="login-link" >Sign in</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+   
+</body>
+</html>
